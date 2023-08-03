@@ -1,0 +1,15 @@
+CrossClassCode,From  -> To,Percentage (%),Area km2
+11,From Building to Tree,3.3,57.8
+9,From Grass to Tree,2.83,49.6
+18,From  Bare Land to Tree,0.7,12.3
+10,From Tree to Grass,0.68,11.9
+13,From Tree to Building,0.67,11.8
+24,From  Bare Land to  Grass,0.61,10.7
+17,From  Tree to   Road,0.6,10.5
+15,From  Building to  Grass,0.47,8.3
+14,From  Road to Tree,0.45,8
+16,From Grass to   Building,0.37,6.5
+27,From Grass to   Bare Land,0.28,4.9
+21,From Grass to   Road,0.26,4.5
+22,From  Tree to   Bare Land,0.17,3
+19,From  Road to  Grass,0.07,1.2

@@ -1,0 +1,636 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "21rd9vc",
+          "type": "geojson",
+          "config": {
+            "dataId": "Mean Income 2011",
+            "label": "Mean Income 2011",
+            "color": [
+              18,
+              147,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.5,
+              "strokeOpacity": 0.8,
+              "thickness": 2,
+              "strokeColor": [
+                228,
+                128,
+                0
+              ],
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#FFC300",
+                  "#F1920E",
+                  "#E3611C",
+                  "#C70039",
+                  "#900C3F",
+                  "#5A1846"
+                ],
+                "reversed": true
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 10,
+              "enableElevationZoomFactor": true,
+              "stroked": true,
+              "filled": true,
+              "enable3d": true,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Mean Income 2011 ($)",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": {
+              "name": "Mean Income 2011 ($)",
+              "type": "integer"
+            },
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "xd0ys5i",
+          "type": "geojson",
+          "config": {
+            "dataId": "Mean Income 2019",
+            "label": "Mean Income 2019",
+            "color": [
+              136,
+              87,
+              44
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.5,
+              "strokeOpacity": 0.21,
+              "thickness": 2,
+              "strokeColor": [
+                255,
+                153,
+                31
+              ],
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#FFC300",
+                  "#F1920E",
+                  "#E3611C",
+                  "#C70039",
+                  "#900C3F",
+                  "#5A1846"
+                ],
+                "reversed": true
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 10,
+              "enableElevationZoomFactor": true,
+              "stroked": true,
+              "filled": true,
+              "enable3d": true,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Mean Income 2019 ($)",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": {
+              "name": "Mean Income 2019 ($)",
+              "type": "integer"
+            },
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "3fu16wv",
+          "type": "geojson",
+          "config": {
+            "dataId": "Urban_Grenn_Use_2019",
+            "label": "Urban_Grenn_Use_2019",
+            "color": [
+              218,
+              112,
+              191
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 1,
+              "strokeOpacity": 0.8,
+              "thickness": 0.1,
+              "strokeColor": [
+                18,
+                92,
+                119
+              ],
+              "colorRange": {
+                "name": "ColorBrewer YlGn-6",
+                "type": "sequential",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#ffffcc",
+                  "#d9f0a3",
+                  "#addd8e",
+                  "#78c679",
+                  "#31a354",
+                  "#006837"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": true,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Green [%]",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "3eyg8l3",
+          "type": "geojson",
+          "config": {
+            "dataId": "Urban_Grenn_Use_2011",
+            "label": "Urban_Green_Use_2011",
+            "color": [
+              18,
+              147,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 1,
+              "strokeOpacity": 0.8,
+              "thickness": 0.1,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "ColorBrewer YlGn-7",
+                "type": "sequential",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#ffffcc",
+                  "#d9f0a3",
+                  "#addd8e",
+                  "#78c679",
+                  "#41ab5d",
+                  "#238443",
+                  "#005a32"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": true,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "Green [%]",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "Mean Income 2011": [
+              {
+                "name": "GEOID",
+                "format": null
+              },
+              {
+                "name": "BoroName",
+                "format": null
+              },
+              {
+                "name": "Mean Income 2011 ($)",
+                "format": null
+              },
+              {
+                "name": "Number of Households",
+                "format": null
+              },
+              {
+                "name": "Area [m^2]",
+                "format": null
+              }
+            ],
+            "Mean Income 2019": [
+              {
+                "name": "GEOID",
+                "format": null
+              },
+              {
+                "name": "BoroName",
+                "format": null
+              },
+              {
+                "name": "Mean Income 2019 ($)",
+                "format": null
+              },
+              {
+                "name": "Number of Households",
+                "format": null
+              },
+              {
+                "name": "Area [m^2]",
+                "format": null
+              }
+            ],
+            "Urban_Grenn_Use_2011": [
+              {
+                "name": "BoroName",
+                "format": null
+              },
+              {
+                "name": "Vegetation [%]",
+                "format": null
+              },
+              {
+                "name": "Artifacts [%]",
+                "format": null
+              },
+              {
+                "name": "Green [%]",
+                "format": null
+              },
+              {
+                "name": "Bare Land [%]",
+                "format": null
+              },
+              {
+                "name": "Roads/Artifacts [%]",
+                "format": null
+              },
+              {
+                "name": "Grass [%]",
+                "format": null
+              },
+              {
+                "name": "Buildings/Artifacts [%]",
+                "format": null
+              },
+              {
+                "name": "GEOID",
+                "format": null
+              }
+            ],
+            "Urban_Grenn_Use_2019": [
+              {
+                "name": "BoroName",
+                "format": null
+              },
+              {
+                "name": "GEOID",
+                "format": null
+              },
+              {
+                "name": "Vegetation [%]",
+                "format": null
+              },
+              {
+                "name": "Area [m^2]",
+                "format": null
+              },
+              {
+                "name": "Grass [%]",
+                "format": null
+              },
+              {
+                "name": "Green [%]",
+                "format": null
+              },
+              {
+                "name": "Roads/Artifacts [%]",
+                "format": null
+              },
+              {
+                "name": "Buildings/Artifacts [%]",
+                "format": null
+              },
+              {
+                "name": "Artifacts [%]",
+                "format": null
+              },
+              {
+                "name": "Bare Land [%]",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 40.688700936125116,
+      "longitude": -73.7411979610376,
+      "pitch": 0,
+      "zoom": 9.436002556376973,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        9.665468314072013,
+        17.18305478057247,
+        31.1442867897876
+      ],
+      "mapStyles": {}
+    }
+  }
+}

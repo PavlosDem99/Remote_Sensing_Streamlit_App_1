@@ -1,0 +1,13 @@
+earthengine_api==0.1.334
+keplergl
+geemap==0.19.1
+geopandas==0.12.2
+leafmap==0.15.0
+pandas==1.5.2
+Pillow==9.4.0
+plotly==5.11.0
+shapely==2.0.0
+streamlit==1.22.0
+
+
+
