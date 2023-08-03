@@ -13,7 +13,7 @@ Kepler_Map= leafmap.kepler.Map()
 #Loading the data
 #------------------------------------------------------------------
 Map_Background_NY= Image.open('Maps/New York SRTM.png')
-Pirforos = Image.open('Data\Picture1.png')
+Pirforos = Image.open('Data/Picture1.png')
 
 #------------------------------------------------------------------
 os.environ['LOCALTILESERVER_CLIENT_PREFIX'] = 'proxy/{port}'
