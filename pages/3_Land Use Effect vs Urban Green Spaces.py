@@ -152,7 +152,7 @@ if pages == "Land Use":
         
             # Training Data 
 
-            training_sample = geemap.geojson_to_ee("Data\Training_Points_4800_with_Shadows.geojson")
+            training_sample = geemap.geojson_to_ee("Data/Training_Points_4800_with_Shadows.geojson")
             bands = ["R","G","B","N","NDVI","EVI","PSSR","GNDVI","NDWI"]
             #bands_select = clip_image_mosaic.select(bands)
             label = 'landcover'
@@ -374,7 +374,7 @@ if pages == "Land Use":
             st.plotly_chart(fig_2, theme = "streamlit",use_container_width=True)
 
     st.markdown("##### 1.3.2 Quantification of **change detection of land uses** for the epochs 2019 & 2011")
-    st.dataframe(data=pd.DataFrame(pd.read_csv('Data\Cross_Classification_Change_Detection.csv')),height=500)
+    st.dataframe(data=pd.DataFrame(pd.read_csv('Data/Cross_Classification_Change_Detection.csv')),height=500)
     st.text("CrossClassCode column's number corresponds to the numbers of the Change Detection Image.\nBut as it mentioned before the change detection image cannot shows up in this application")
     st.write("What are the final Coclusions?")
     st.markdown("**Coclusions:**")
