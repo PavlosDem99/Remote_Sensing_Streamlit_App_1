@@ -6,6 +6,8 @@ import ee
 from PIL import Image
 import os
 import leafmap.kepler
+
+ee.Initialize()
 #------------------------------------------------------------------
 #Maps
 Geemap_Map = geemap.Map(basemaps='CartoDB.DarkMatter')
