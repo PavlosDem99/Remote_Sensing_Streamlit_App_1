@@ -14,10 +14,9 @@ Map = geemap.Map()
 #------------------------------------------------------------------
 st.cache_data()
 # Loading Data
-Pirforos = Image.open("Data\Picture1.png")
-Land_Use_Percentage = pd.read_csv("Data\Cross Classification.csv")
-Urban_Green_2011 = gpd.read_file("Data\FIXUrban_Green_2011.geojson")
-Urban_Green_2019 = gpd.read_file("Data\FIXUrban_Green_2019.geojson")
+Land_Use_Percentage = pd.read_csv("Data/Cross Classification.csv")
+Urban_Green_2011 = gpd.read_file("Data/FIXUrban_Green_2011.geojson")
+Urban_Green_2019 = gpd.read_file("Data/FIXUrban_Green_2019.geojson")
 
 
 st.set_page_config(layout="wide",page_title="This is NAIP IMAGERY page")
