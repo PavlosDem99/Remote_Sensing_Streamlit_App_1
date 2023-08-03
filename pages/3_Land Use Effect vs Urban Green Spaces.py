@@ -297,18 +297,18 @@ if pages == "Land Use":
     st.subheader("1.2. Change Detection")
     tab_2_1,tab_2_2,tab_2_3 = st.tabs(["From Trees to Buildings","From Buildings to Trees","From Buildings to Grass"])
     with tab_2_1:
-        Trees_to_Buildings = Image.open("Data\Trees_to_Buildings.JPG")
+        Trees_to_Buildings = Image.open("Data/Trees_to_Buildings.JPG")
         st.markdown(":green[Yellow circles show the correct change detections] and :red[Red Circles the false change detections]")
         st.image(Trees_to_Buildings)
         st.markdown("Observations: The main change detection in this picture, is the appearance of the big building in 2019")
 
     with tab_2_2:
-        Buildings_to_Trees = Image.open("Data\Buildings_to_trees.JPG")
+        Buildings_to_Trees = Image.open("Data/Buildings_to_trees.JPG")
         st.image(Buildings_to_Trees)
         st.markdown("Observations: In this case, most detections which appear in blue are false. This may be due to the Image 2011 which has not been preprocessed. In respect to this, this case shows the necessity of the preprocess method to be made for an image especially for an image that will be used for a change detection. Also, another thing that pops up is the necessity of the two images to have the same resolutions.")
 
     with tab_2_3:
-        Buildings_to_Grass = Image.open("Data\Buildings_to_Grass.JPG")
+        Buildings_to_Grass = Image.open("Data/Buildings_to_Grass.JPG")
         st.image(Buildings_to_Grass)
         st.markdown("Observations: In this case this change detection shows the change between Buildings and Grass.")
 
