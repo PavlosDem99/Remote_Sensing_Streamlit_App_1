@@ -23,12 +23,11 @@ st.set_page_config(layout="wide",page_title="This is NAIP IMAGERY page")
 st.cache_data() 
 # ------------------------------------------------------------------
 
-Pirforos = Image.open("Data\Picture1.png")
-Mean_Income_2011 = gpd.read_file("Data\Mean_Income_us_tracts_2011.geojson")
-Mean_Income_2019 = gpd.read_file("Data\Mean_Income_us_tracts_2019.geojson")
-Land_Use_Percentage = pd.read_csv("Data\Cross Classification.csv")
-Urban_Green_2011 = gpd.read_file("Data\FIXUrban_Green_2011.geojson")
-Urban_Green_2019 = gpd.read_file("Data\FIXUrban_Green_2019.geojson")
+Mean_Income_2011 = gpd.read_file("Data/Mean_Income_us_tracts_2011.geojson")
+Mean_Income_2019 = gpd.read_file("Data/Mean_Income_us_tracts_2019.geojson")
+Land_Use_Percentage = pd.read_csv("Data/Cross Classification.csv")
+Urban_Green_2011 = gpd.read_file("Data/FIXUrban_Green_2011.geojson")
+Urban_Green_2019 = gpd.read_file("Data/FIXUrban_Green_2019.geojson")
 
 # ------------------------------------------------------------------
 
