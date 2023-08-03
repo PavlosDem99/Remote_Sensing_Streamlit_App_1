@@ -18,8 +18,8 @@ Pirforos = Image.open('Data\Picture1.png')
 #------------------------------------------------------------------
 os.environ['LOCALTILESERVER_CLIENT_PREFIX'] = 'proxy/{port}'
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
-#json_data = st.secrets["json_data"]
-#service_account = st.secrets["service_account"]
+json_data = st.secrets["json_data"]
+service_account = st.secrets["service_account"]
 #------------------------------------------------------------------
 # Main Function
 
