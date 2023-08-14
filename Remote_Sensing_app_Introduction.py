@@ -1,17 +1,11 @@
-#%%
+
 import streamlit as st
-import geemap.foliumap as geemap
-import leafmap.foliumap as leafmap
 import ee
 from PIL import Image
 import os
-import leafmap.kepler
 
 ee.Initialize()
 #------------------------------------------------------------------
-#Maps
-Geemap_Map = geemap.Map(basemaps='CartoDB.DarkMatter')
-Kepler_Map= leafmap.kepler.Map()
 #Loading the data
 #------------------------------------------------------------------
 Map_Background_NY= Image.open('Maps/New York SRTM.png')
@@ -56,7 +50,11 @@ def main():
     Additionally, green spaces function as noise reduction tools in cities, creating a more pleasant and sustainable living environment for residents. Furthermore, green spaces can be considered as temperature regulators, 
     mitigating the heat island effect predominantly found in urban areas. Lastly, they undoubtedly enhance the aesthetics of the city, providing a more visually appealing environment.
     
-    The aim of this project is, how green spaces are affected by socio-economic factors and land uses, with a focus on the case of New York City. For better and more accuracy results, two epochs have been investigated, 2011 and 2019. 
+    The aim of this project is, how green spaces are affected by socio-economic factors and land uses, with a focus on the case of New York City. 
+    Why New York City? New York City is one of the biggest megacities in the world and has plenty green spaces (e.g Central Park), so it is perfect for this projet. 
+    Also someone can find many sources with New York city's data (e.g mean income), such as NYC Open Data Program, United States Census etc.
+    
+    For better and more accuracy results, two epochs have been investigated, 2011 and 2019. 
     The application includes a study implementation section with subsections on Luxury Effect, Land Use Effect, and Legacy Effect, and a bibliography. 
     The study implementation section includes graphs, charts, and maps to support the analysis. The application concludes that there is a strong correlation between green spaces and median income, 
     and suggests further analysis with additional indicators and dynamic maps for more representative results.
@@ -70,8 +68,9 @@ def main():
     st.write(" \n ")
     col1, col2, col3 = st.columns([0.25,0.5, 0.25])
     with col2:
-        st.image(Map_Background_NY,output_format='PNG',width=1080,caption="Figure 1: New York City Map",clamp=True)
+        st.image(Map_Background_NY,output_format='PNG',width=1080,caption="Figure 1: New York City's Map",clamp=True)
 
+    st.markdown("As shown above New York City is consists of five Boroughs; Bronx, Queens, Manhattan, Brookly and Queens Island. All of them has been invesigated for the analysis")
     st.markdown("##### **:blue[Bibliography]** \n\
     Hai-Li Zhang a, J. P.-L.-F. (2021). Wealth and land use drive the distribution of urban green space in the tropical coastal city of Haikou, China. ELSEVIER. \n\
     Mendel Giezen, S. B. (2018). Using Remote Sensing to Analyse Net Land-Use Change from Conflicting Sustainability Policies:. ISPRS  \n\
