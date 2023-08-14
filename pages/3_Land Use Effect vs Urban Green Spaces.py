@@ -380,7 +380,7 @@ if pages == "Land Use":
 
     st.markdown("##### 1.3.2 Quantification of **change detection of land uses** for the epochs 2019 & 2011")
     st.dataframe(data=pd.DataFrame(pd.read_csv('Data/Cross_Classification_Change_Detection.csv')),height=500)
-    st.text("CrossClassCode column's number corresponds to the numbers of the Change Detection Image.\nBut as it mentioned before the change detection image cannot shows up in this application")
+    st.text("CrossClassCode column's number corresponds to the numbers of a Change Detection Image(Don't pay attention to this).\n")
     st.write("What are the final Coclusions?")
     st.markdown("**Coclusions:**")
     st.markdown("* :blue[1st: For a change detection, it is mandatory, the two image will have the same resolutions and be preprocessed]")
