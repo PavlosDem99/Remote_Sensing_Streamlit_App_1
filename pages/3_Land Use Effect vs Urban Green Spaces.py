@@ -286,10 +286,15 @@ if pages == "Land Use":
             accuracy_result_2(classification=classification_2)
             st.write("Validation Data")
             accuracy_result_VALIDATION_2(classification=classification_2)
-        
+            
+        st.write("Overall accuracy of a confusion matrix defined as correct / total. - Source: Google Earth Engine API ")
+        st.write("Kappa statistic for the confusion matrix")
+        st.write("Consumer's accuracy (reliability) of a confusion matrix defined as (correct / total) for each row")
+        st.write("Producer's accuracy of a confusion matrix defined as (correct / total) for each column.")
         Map.to_streamlit()
         return
     with st.spinner('Please wait while is loading... 😎'):
+        
         classifications_calling()
    
    # ---------------------- Change Detection Part 2 ------------------------------
