@@ -24,7 +24,7 @@ st.set_page_config(layout="wide",page_title="This is NAIP IMAGERY page")
 
 st.header("3. Legacy Effect vs Urban Green Spaces")
 st.markdown("The variable which represents the Legacy Effect is Historic Districts.\
-In this Page will be examined how UGS can be affected by Historic Districts")
+In this Page will be examined how UGS can be affected by Historic Districts. The number of Historic Districts that have been examined is 155.")
 st.subheader("3.1 Map of Historic Districts with Percentage of the Urban Green Spaces")
 style = {
     "stroke": False,
