@@ -47,11 +47,11 @@ Expander_1_1 = st.expander(label="My observatios and Yours ? (write them in the 
 with Expander_1_1:
     Text_1_1 = st.text_area(label="My observations ... yours ? :", 
     value=""" 
-    As it seems, there is a positive correlation between Mean Income and Urban Green Spaces (Green [%]).\
-    Although this positive correlation occurs, something weird is happening with the highest values of Mean Income.\
+    If someone zoom-in from 0 - 150k in Mean Income, it will appear a positive correlation between Mean Income and Urban Green Spaces (Green [%]).\
+    Although this positive correlation occurs (from 0-150k), something weird is happening with the highest values of Mean Income, they behave like outliers, isn't it?.\
     The highest values of Mean Income correspond with the lowest values of the Green [%]. Respectively this is happening with the\
     highest values of the Green [%] and the lowest values of the Mean Income.\
-    This shows up the necessity of map creation, to see what really is happening at a spatial level.\n
+    I think a map creation will unveil what really is happening at a spatial level.\n
     What's your observations? :
     """,height=200)
 
@@ -65,6 +65,8 @@ config = {
     'zoom': 9
     }}
 }
+
+#Loading Kepler's map configuration 
 with open(file="Data/Kepler_Map_Configuration.json") as Kepler_Datas_Configuration:
     Kepler_Datas_Configuration=json.load(Kepler_Datas_Configuration)
 
@@ -79,11 +81,11 @@ Kepler_Map.add_gdf(gdf=gpd.GeoDataFrame(Urban_Green_2019),layer_name="Urban_Gren
 st.cache_resource()
 Kepler_Map.to_streamlit()
 st.write("Comments:")
-st.write("Let's focus initially on the high values of green spaces, as we are examining the relationship between green spaces and median income. The majority of tracts with high values of green spaces are mainly \n\
-         located in Staten Island and Queens. In both cases, there are high percentages of median income. On the contrary, in the Bronx and Brooklyn (in terms of low income values), the tracts have the lowest values \n\
-         of green spaces and also lower median income values. In these three cases, a strong correlation is observed between green spaces and median income values. What is particularly striking is the very low percentage \n\
-         values found in most tracts in Manhattan and the very high median income values. An attentive observer will notice that most tracts in Manhattan are adjacent to Central Park, the largest park in New York City.\n\
-         As shown on the Green Spaces map, Central Park has a large percentage of green spaces. A similar phenomenon is also observed in the case of low percentage values of green spaces and very high median income values.")
+st.write("Let's focus initially on the high values of green spaces, as we are examining the relationship between green spaces and mean income. The majority of tracts with high values of green spaces are mainly \n\
+         located in Staten Island and Queens. In both cases, there are high percentages of mean income. On the contrary, in the Bronx and Brooklyn (in terms of low income values), the tracts have the lowest values \n\
+         of green spaces and also lower mean income values. In these three cases, a strong correlation is observed between green spaces and mean income values. What is particularly striking is the very low percentage \n\
+         values found in most tracts in Manhattan and the very high mean income values. An attentive observer will notice that most tracts in Manhattan are adjacent to Central Park, the largest park in New York City.\n\
+         As shown on the Green Spaces map, Central Park has a large percentage of green spaces. A similar phenomenon is also observed in the case of low percentage values of green spaces and very high mean income values.")
 st.write("What are the final conclusions ? ")
 st.markdown("Coclusions:")
 st.markdown("* :blue[1st: There is a positive correlation between UGS and Mean Income.]")
