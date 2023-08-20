@@ -19,7 +19,7 @@ The Socioeconomic Factors which will be examined are :
 
 
 ## <span style="color:cyan;">Urban Green Spaces</span>
-
+https://github.com/PavlosDem99/Remote_Sensing_Streamlit_App_1/blob/master/Maps/Background%20NY%20new.png
 Green spaces are an integral part of urban fabric, and their relationship should be characterized as inseparable. Green spaces refer to areas where vegetation is present, including parks and squares, 
 generally providing spaces for residents to freely walk and connect with nature. According to Angelo Siolas (2015), green spaces, also known as "Urban Green Spaces", 
 are the points where the city meets nature. Green spaces should be an integral part of every neighborhood, and their distribution should be uniform, with sizes sufficient to meet the needs of all residents.
