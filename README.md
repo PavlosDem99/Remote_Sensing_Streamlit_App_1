@@ -36,7 +36,7 @@ mitigating the heat island effect predominantly found in urban areas. Lastly, th
 
 ## <span style="color:cyan;"> Why it called repository/application? </span>
 
-This repository/application has been made for uploading it to Streamlit. 
+This repository/application has been made for uploading it to Streamlit. You can visit the application following this link https://remote20sensing20app20-20introductionpy-myvoxzalycr9w5r9vsivov.streamlit.app/ 
 Streamtit is a cloud-based platform fro making apps, using Python and share them with the world.
 
 ## <span style="color:cyan;"> Aknowledgment </span>
