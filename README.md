@@ -1,5 +1,5 @@
 
-## <span style="color:cyan;">Title: "How Urban Green Spaces can be affected by Socioeconomic Factors and Land Uses "</span>
+## <span style="color:cyan;">Title: "How Urban Green Spaces can be affected by Socioeconomic Factors and Land Use "</span>
 
 ## The purpose of this repositoty/application
 
